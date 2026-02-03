@@ -24,7 +24,7 @@ Allora:
 -Scrivi un programma che stampa dei numeri da 1 a 100.
     SE il numero è multiplo di 3 E 5
         -stampa Fizzbuzz al posto del numero corrispondente
-    -SE il numero è multiplo di 3
+    -ALTRIMENTI SE il numero è multiplo di 3
         -stampo fizz al posto del numero corrispondente
     -ALTRIMENTI SE il numero è multiplo di 5
         -stampo buzz al posto del numero corrispondente
@@ -44,25 +44,24 @@ Che dati possono servirci?
 
 //Scrivi un programma che stampa dei numeri da 1 a 100.
 for(let numbers = 1; numbers <= 100; numbers++) {
-    
-//SE il numero è multiplo di 3
 
-     if(numbers % 3 == 0 && numbers % 5 == 0) {
-        console.log('Fizzbuzz');  
+//SE il numero è multiplo di 3 E 5
+    if(numbers % 3 ==0&&numbers % 5 ==0) {
+        console.log('FizzBuzz'); //Stampa Fizzbuzz al posto del numero corrispondente
 
-     }else if(numbers % 3 == 0) {
-        console.log('Fizz'); //Stampo fizz al posto del numero corrispondente  
+//ALTRIMENTI SE il numero è multiplo di 3
+    }else if(numbers % 3 == 0) {
+        console.log('Fizz'); //Stampo fizz al posto del numero corrispondente
 
-    
-//ALTRIMENTI SE il numero è multiplo di 5
-    } else if(numbers % 5 == 0) { 
+//ALTRIMENTI SE il numero è multiplo di 5       
+    }else if(numbers % 5 == 0) {
         console.log('Buzz'); //Stampo buzz al posto del numero corrispondente
-//ALTRIMENTI           
-    } else {
+
+//ALTRIMENTI       
+    }else {
         console.log(numbers); //Stampo il numero corrispondente
         
     }
- 
 
-//SE il numero è multiplo di 3 E 5
-}
+
+}   
