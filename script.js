@@ -9,7 +9,8 @@ Abbiamo visto qualcosa di particolare che possiamo usare?
 
 Consigli del giorno:
 scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
-proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/ 
+proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+*/ 
 
 
 /*HUMAN CODE
@@ -39,6 +40,13 @@ Che dati possono servirci?
 -operatore logico per selezionare entrmbi fizz e buzz
 -trovare un modo per sostituire il numero con la parola. 
 */ 
+
+
+//Scrivi un programma che stampa dei numeri da 1 a 100.
+for(let numbers = 1; numbers <= 100; numbers++) {
+    console.log(numbers)
+}
+
 
 
 
