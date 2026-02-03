@@ -29,8 +29,8 @@ Allora:
     ALTRIMENTI
     -Stampo il numero corrispondente
         
-        ALTRIMENTI SE il numero E' siam multiplo di 3 E? 5
-            -stampo FizzBuzz al posto dei numeri corrispondenti
+    SE il numero è multiplo di 3 E 5
+        -stampa Fizzbuzz al posto del numero corrispondente
 
 Che dati possono servirci?
 -Numeri generati con for
@@ -45,11 +45,15 @@ Che dati possono servirci?
 for(let numbers = 1; numbers <= 100; numbers++) {
 //SE il numero è multiplo di 3
     if(numbers % 3 == 0) {
-        console.log('Fizz'); //stampo fizz al posto del numero corrispondente  
+        console.log('Fizz'); //Stampo fizz al posto del numero corrispondente  
 //ALTRIMENTI SE il numero è multiplo di 5
-    } else if(numbers % 5 == 0) {
-        console.log('Buzz');
+    } else if(numbers % 5 == 0) { 
+        console.log('Buzz'); //Stampo buzz al posto del numero corrispondente
+//ALTRIMENTI           
+    } else {
+        console.log(numbers);//Stampo il numero corrispondente
         
     }
-}
+
+
 
