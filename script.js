@@ -55,5 +55,10 @@ for(let numbers = 1; numbers <= 100; numbers++) {
         
     }
 
-
+//SE il numero è multiplo di 3 E 5
+    if(numbers % 3 == 0 && numbers % 5 == 0) {
+        console.log('Fizzbuzz');//stampa Fizzbuzz al posto del numero corrispondente
+        
+    }
+}
 
