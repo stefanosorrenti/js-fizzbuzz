@@ -23,15 +23,14 @@ Allora:
 
 -Scrivi un programma che stampa dei numeri da 1 a 100.
     -SE il numero è multiplo di 3
-        -stampo fizz al posto di 3
-    -SE il numero è multiplo di 5
-        -stampo buzz al posto del 5
-    ALTRIMENTI SE il numero E' siam multiplo di 3 e 5
-        -stampo FizzBuzz al posto dei numeri
-
+        -stampo fizz al posto del numero corrispondente
+    -ALTRIMENTI SE il numero è multiplo di 5
+        -stampo buzz al posto del numero corrispondente
     ALTRIMENTI
-        -Stampo il numero corrispondente
-
+    -Stampo il numero corrispondente
+        
+        ALTRIMENTI SE il numero E' siam multiplo di 3 E? 5
+            -stampo FizzBuzz al posto dei numeri corrispondenti
 
 Che dati possono servirci?
 -Numeri generati con for
@@ -44,9 +43,9 @@ Che dati possono servirci?
 
 //Scrivi un programma che stampa dei numeri da 1 a 100.
 for(let numbers = 1; numbers <= 100; numbers++) {
-    console.log(numbers)
+//SE il numero è multiplo di 3
+    if(numbers % 3 == 0) {
+        console.log('Fizz'); //stampo fizz al posto del numero corrispondente  
+
 }
-
-
-
 
